@@ -5,6 +5,6 @@ Creo que el grid tiene un gran potencial que hay que explotar al máximo.
 ![screenshot](screenshot.png)
 
 ## GitHub flow
-### 1 empleado entorno de trabajo remoto
-# 2 de momento solo yo
-3
+! 1 empleado entorno de trabajo remoto
+! 2 de momento solo yo
+! 3 anadido de otros archivos o codigo modificado o añadido
