@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  max-height: 100%;
+}
+.container{
+  width: 99vw;
+  height: 97vh;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-gap: 15px;
+}
+.uno{
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: 1 / span 2; /* empieza en 1 y ocupa 2 columnas */
+  grid-row: span 2;
+  border: 3px solid rgb(243, 88, 16);
+  box-shadow: 4px 4px 5px rgb(252, 128, 70);
+  padding: 4px;
+}
+.dos{
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 2;
+  grid-row: span 10;
+  border: 3px solid rgb(11, 10, 10);
+  box-shadow: 4px 4px 5px rgb(60, 59, 59);
+  padding: 4px;
+}
+.tres{
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 2;
+  grid-row: span 7;
+  border: 3px solid rgb(254, 166, 32);
+  box-shadow: 4px 4px 5px rgb(249, 206, 105);
+  padding: 4px;
+}
+.cuatro{
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 1;
+  grid-row: span 8;
+  border: 3px solid rgb(182, 19, 252);
+  box-shadow: 4px 4px 5px rgb(96, 7, 134);
+  padding: 4px;
+}
+.cinco{
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 1;
+  grid-row: span 3;
+  border: 3px solid rgb(148, 115, 6);
+  box-shadow: 4px 4px 5px rgb(86, 66, 3);
+  padding: 4px;
+}
+.seis{
+  transition: 1s;
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball6.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 1;
+  grid-row: span 5;
+  border: 3px solid rgb(4, 224, 22);
+  box-shadow: 4px 4px 5px rgb(154, 250, 147);
+  padding: 4px;
+}
+.siete{
+  transition: 1s;
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball7.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 2;
+  grid-row: span 7;
+  border: 3px solid rgb(245, 6, 6);
+  box-shadow: 4px 4px 5px rgb(100, 43, 43);
+  padding: 4px;
+}
+.ocho{
+  transition: 1s;
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/ball8.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 1;
+  grid-row: span 4;
+  border: 3px solid rgb(35, 31, 254);
+  box-shadow: 4px 4px 5px rgb(142, 152, 245);
+  padding: 4px;
+}
+.nueve{
+  transition: 1s;
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/balls.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 3;
+  grid-row: span 4;
+  border: 3px solid rgb(177, 176, 176);
+  box-shadow: 4px 4px 5px rgb(100, 100, 100);
+  padding: 4px;
+}
+.diez{
+  transition: 1s;
+  text-align-last:right;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bolder;
+  background-image: url(./img/pelota_i.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  grid-column: span 6;
+  grid-row: span 1;
+  border: 3px solid rgb(197, 255, 24);
+  box-shadow: 2px 2px 5px rgb(196, 254, 35);
+  padding: 4px;
+}
