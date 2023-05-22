@@ -165,7 +165,7 @@ html {
   font-weight: bolder;
   background-image: url(./img/pelota_i.png);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   grid-column: span 6;
   grid-row: span 1;
   border: 3px solid rgb(197, 255, 24);
@@ -219,7 +219,8 @@ html {
   filter: sepia(100%);
 }
 .diez:hover{
-  transition: 4s ease-in-out;
-  margin-left: 1500px;
+  transition: 1s ease-in-out;
+  transform: scale(0.9);
+  filter: opacity(30%);
 }
 
